@@ -14,7 +14,7 @@
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="android-minSdkVersion" value="7" />
-	
+	<icon src="icon.png" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	
 	<preference name="SplashScreen" value="screen"/>
@@ -26,5 +26,5 @@
 	<gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/android/screen.png" />
 
 	<gap:splash src="splash.png" />
-	
+	<splash src="splash.png" />
 </widget>
