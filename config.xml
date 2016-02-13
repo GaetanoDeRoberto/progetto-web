@@ -18,8 +18,7 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
+    
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
@@ -42,7 +41,6 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 	<icon src="icon.png" />
-	<gap:plugin name="org.apache.cordova.splashscreen" />
 	
 	<preference name="SplashScreen" value="screen"/>
 	<preference name="SplashScreenDelay" value="30000" />
@@ -53,5 +51,5 @@
 	<gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/android/screen.png" />
 
 	<gap:splash src="splash.png" />
-	<splash src="splash.png" />
+	
 </widget>
